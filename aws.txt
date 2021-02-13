@@ -1,0 +1,8 @@
+# Connect with SSH to EC2 instance (with .pem files)
+ssh -i archivo.pem username@instancia
+ssh -i "my_pem.pem" ubuntu@ec2-54-219-137-60.us-west-1.compute.amazonaws.com
+
+# Instalar NGinX
+sudo apt update
+sudo apt upgrade
+
